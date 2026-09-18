@@ -157,7 +157,7 @@ E fiz tudo isso rodando localmente, sem gastar um centavo de infraestrutura de n
 
 ## Outro modo de realizar esse projeto 
 
-Vale registrar: as escolhas técnicas descritas neste até o momento README (DuckDB local, chunks, TF-IDF, Regressão Logística, execução manual dos scripts) foram pensadas para o escopo deste case específico tempo limitado, volume de dado do case, ambiente local. Pensando em um hambiente real onde os dados chegam a todo momento precisamos pensar em escalabilidade, mais times consumindo o modelo, volume de dado ordens de grandeza maior, necessidade de retraining automatizado e observabilidade contínua, várias dessas peças mudariam de forma; isso está explorado à parte,"se houvesse mais tempo" abaixo uma breve arquitetura de uma outra estrutura: 
+Vale registrar: as escolhas técnicas descritas neste README até o momento (DuckDB local, chunks, TF-IDF, Regressão Logística, execução manual dos scripts) foram pensadas para o escopo deste case específico tempo limitado, volume de dado do case, ambiente local. Pensando em um hambiente real onde os dados chegam a todo momento precisamos pensar em escalabilidade, mais times consumindo o modelo, volume de dado ordens de grandeza maior, necessidade de retraining automatizado e observabilidade contínua, várias dessas peças mudariam de forma; isso está explorado à parte,"se houvesse mais tempo" abaixo uma breve arquitetura de uma outra estrutura: 
 
 ![alt text](image-3.png) 
 
