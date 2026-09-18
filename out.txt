@@ -1,0 +1,6 @@
+Accuracy final no treino:     88.93%
+Accuracy final na validação:  87.43%
+Gap treino-validação:         +1.50 pontos percentuais
+→ Gap pequeno: sem sinal relevante de overfitting.
+
+errors: 0

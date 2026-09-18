@@ -1,0 +1,20 @@
+{
+  "compared_at": "2026-09-15T01:38:45.177751+00:00",
+  "n_train_rows": 32008,
+  "n_valid_rows": 8002,
+  "max_features": 5000,
+  "results": {
+    "logistic_regression": {
+      "accuracy": 0.8934,
+      "f1_macro": 0.8934
+    },
+    "xgboost": {
+      "accuracy": 0.8562,
+      "f1_macro": 0.856
+    },
+    "neural_network": {
+      "accuracy": 0.8858,
+      "f1_macro": 0.8857
+    }
+  }
+}

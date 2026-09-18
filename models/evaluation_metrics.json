@@ -1,0 +1,34 @@
+{
+  "evaluated_at": "2026-09-15T02:01:47.908336+00:00",
+  "n_test_rows": 9989,
+  "accuracy": 0.9045,
+  "f1_macro": 0.9045,
+  "per_class": {
+    "negative": {
+      "precision": 0.9039,
+      "recall": 0.9043,
+      "f1": 0.9041
+    },
+    "positive": {
+      "precision": 0.9051,
+      "recall": 0.9047,
+      "f1": 0.9049
+    }
+  },
+  "confusion_matrix": {
+    "labels": [
+      "negative",
+      "positive"
+    ],
+    "matrix": [
+      [
+        4496,
+        476
+      ],
+      [
+        478,
+        4539
+      ]
+    ]
+  }
+}

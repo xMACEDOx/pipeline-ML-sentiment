@@ -1,0 +1,18 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# dados gerados (mantemos so a estrutura de pastas versionada)
+data/bronze/*
+data/silver/*
+data/gold/*
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
+
+# modelo treinado nao vai pro git
+models/*.joblib
+!models/.gitkeep
+
+.env
